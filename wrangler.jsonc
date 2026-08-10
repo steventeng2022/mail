@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/wrangler/config-schema.json",
-  "name": "steven-mail",
+  "name": "mail",
   "main": "src/worker.ts",
   "compatibility_date": "2026-08-11",
   "compatibility_flags": ["nodejs_compat"],
@@ -19,7 +19,7 @@
     {
       "binding": "DB",
       "database_name": "steven-mail",
-      "database_id": "REPLACE_WITH_D1_DATABASE_ID",
+      "database_id": "97d54d02-ab2e-4862-bb08-ad9863e12804",
       "migrations_dir": "./migrations"
     }
   ],
